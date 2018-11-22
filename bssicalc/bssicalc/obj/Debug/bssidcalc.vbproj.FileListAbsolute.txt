@@ -1,0 +1,12 @@
+c:\users\kamome\source\repos\bssicalc\bssicalc\bin\Debug\bssicalc.exe.config
+c:\users\kamome\source\repos\bssicalc\bssicalc\bin\Debug\bssicalc.exe
+c:\users\kamome\source\repos\bssicalc\bssicalc\bin\Debug\bssicalc.pdb
+c:\users\kamome\source\repos\bssicalc\bssicalc\bin\Debug\bssicalc.xml
+c:\users\kamome\source\repos\bssicalc\bssicalc\obj\Debug\bssidcalc.vbprojAssemblyReference.cache
+c:\users\kamome\source\repos\bssicalc\bssicalc\obj\Debug\bssicalc.frmMain.resources
+c:\users\kamome\source\repos\bssicalc\bssicalc\obj\Debug\bssicalc.Resources.resources
+c:\users\kamome\source\repos\bssicalc\bssicalc\obj\Debug\bssidcalc.vbproj.GenerateResource.cache
+c:\users\kamome\source\repos\bssicalc\bssicalc\obj\Debug\bssidcalc.vbproj.CoreCompileInputs.cache
+c:\users\kamome\source\repos\bssicalc\bssicalc\obj\Debug\bssicalc.exe
+c:\users\kamome\source\repos\bssicalc\bssicalc\obj\Debug\bssicalc.xml
+c:\users\kamome\source\repos\bssicalc\bssicalc\obj\Debug\bssicalc.pdb
