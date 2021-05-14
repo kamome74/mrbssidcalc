@@ -438,7 +438,7 @@ Partial Class frmMain
         Select Case BSSIDOUI
             Case "00:18:0A"
                 For i As Integer = 0 To nudSSIDs.Value - 1
-                    If cboModel.SelectedIndex <= 5 Then
+                    If {"MR12", "MR16", "MR18", "MR24", "MR62", "MR66"}.Contains(cboModel.SelectedItem) Then
                         If i <= 1 Then
                             MACOUI(0) = MACOUI(0) + (&H6 * i)
                         Else
@@ -453,7 +453,7 @@ Partial Class frmMain
                             BSSID5(i) = MACOUI(0).ToString("X2") + ":"
                         End If
                         BSSID5(i) = BSSID5(i) + MACOUI(1).ToString("X2") + ":" + (MACOUI(2) + &H10).ToString("X2") + ":" + BSSIDSerial
-                    ElseIf cboModel.SelectedIndex >= 6 And cboModel.SelectedIndex <= 9 Then
+                    ElseIf {"MR26", "MR32", "MR34", "MR72"}.Contains(cboModel.SelectedItem) Then
                         If i = 0 Then
                             MACOUI(0) = MACOUI(0) + &H2
                             MACOUI(2) = MACOUI(2) + &H40
@@ -470,7 +470,7 @@ Partial Class frmMain
                 Next
             Case "88:15:44"
                 For i As Integer = 0 To nudSSIDs.Value - 1
-                    If cboModel.SelectedIndex <= 5 Then
+                    If {"MR12", "MR16", "MR18", "MR24", "MR62", "MR66"}.Contains(cboModel.SelectedItem) Then
                         Select Case i + 1
                             Case 2
                                 MACOUI(0) = MACOUI(0) + &H6
@@ -490,7 +490,7 @@ Partial Class frmMain
                             BSSID5(i) = MACOUI(0).ToString("X2") + ":"
                         End If
                         BSSID5(i) = BSSID5(i) + MACOUI(1).ToString("X2") + ":" + (MACOUI(2) + &H10).ToString("X2") + ":" + BSSIDSerial
-                    ElseIf cboModel.SelectedIndex >= 6 And cboModel.SelectedIndex <= 9 Then
+                    ElseIf {"MR26", "MR32", "MR34", "MR72"}.Contains(cboModel.SelectedItem) Then
                         If i = 0 Then
                             MACOUI(0) = MACOUI(0) + &H2
                             MACOUI(2) = MACOUI(2) - &H40
@@ -501,7 +501,7 @@ Partial Class frmMain
 
                         BSSID24(i) = MACOUI(0).ToString("X2") + ":" + MACOUI(1).ToString("X2") + ":" + MACOUI(2).ToString("X2") + ":" + BSSIDSerial
                         BSSID5(i) = MACOUI(0).ToString("X2") + ":" + MACOUI(1).ToString("X2") + ":" + (MACOUI(2) + &H10).ToString("X2") + ":" + BSSIDSerial
-                    ElseIf cboModel.SelectedIndex > 9 Then
+                    ElseIf {"MR20", "MR30H", "MR33", "MR42", "MR42E", "MR52", "MR53", "MR53E", "MR70", "MR74", "MR84"}.Contains(cboModel.SelectedItem) Then
                         Select Case i + 1
                             Case 2
                                 MACOUI(0) = MACOUI(0) + &H6
@@ -527,7 +527,7 @@ Partial Class frmMain
                 Next
             Case "E0:55:3D"
                 For i As Integer = 0 To nudSSIDs.Value - 1
-                    If cboModel.SelectedIndex >= 6 And cboModel.SelectedIndex <= 9 Then
+                    If {"MR26", "MR32", "MR34", "MR72"}.Contains(cboModel.SelectedItem) Then
                         If i = 0 Then
                             MACOUI(0) = MACOUI(0) + &H2
                             MACOUI(2) = MACOUI(2) + &H40
@@ -538,7 +538,7 @@ Partial Class frmMain
 
                         BSSID24(i) = MACOUI(0).ToString("X2") + ":" + MACOUI(1).ToString("X2") + ":" + MACOUI(2).ToString("X2") + ":" + BSSIDSerial
                         BSSID5(i) = MACOUI(0).ToString("X2") + ":" + MACOUI(1).ToString("X2") + ":" + (MACOUI(2) - &H10).ToString("X2") + ":" + BSSIDSerial
-                    ElseIf cboModel.SelectedIndex > 9 Then
+                    ElseIf {"MR20", "MR30H", "MR33", "MR42", "MR42E", "MR52", "MR53", "MR53E", "MR70", "MR74", "MR84"}.Contains(cboModel.SelectedItem) Then
                         Select Case i + 1
                             Case 2
                                 MACOUI(0) = MACOUI(0) + &H6
@@ -664,5 +664,9 @@ Partial Class frmMain
 
     Private Sub frmMain_Shown(sender As Object, e As EventArgs) Handles Me.Shown
         Call btnClear_Click(sender, e)
+    End Sub
+
+    Private Sub cboModel_SelectedIndexChanged(sender As Object, e As EventArgs) Handles cboModel.SelectedIndexChanged
+
     End Sub
 End Class

@@ -9,3 +9,15 @@ C:\Users\Kamome\source\repos\bssicalc\bssicalc\obj\Release\bssidcalc.vbproj.Core
 C:\Users\Kamome\source\repos\bssicalc\bssicalc\obj\Release\bssicalc.exe
 C:\Users\Kamome\source\repos\bssicalc\bssicalc\obj\Release\bssicalc.xml
 C:\Users\Kamome\source\repos\bssicalc\bssicalc\obj\Release\bssicalc.pdb
+E:\Docs\개인\Repos\mrbssidcalc\bssicalc\bssicalc\bin\Release\bssicalc.exe.config
+E:\Docs\개인\Repos\mrbssidcalc\bssicalc\bssicalc\bin\Release\bssicalc.exe
+E:\Docs\개인\Repos\mrbssidcalc\bssicalc\bssicalc\bin\Release\bssicalc.pdb
+E:\Docs\개인\Repos\mrbssidcalc\bssicalc\bssicalc\bin\Release\bssicalc.xml
+E:\Docs\개인\Repos\mrbssidcalc\bssicalc\bssicalc\obj\Release\bssidcalc.vbprojAssemblyReference.cache
+E:\Docs\개인\Repos\mrbssidcalc\bssicalc\bssicalc\obj\Release\bssicalc.frmMain.resources
+E:\Docs\개인\Repos\mrbssidcalc\bssicalc\bssicalc\obj\Release\bssicalc.Resources.resources
+E:\Docs\개인\Repos\mrbssidcalc\bssicalc\bssicalc\obj\Release\bssidcalc.vbproj.GenerateResource.cache
+E:\Docs\개인\Repos\mrbssidcalc\bssicalc\bssicalc\obj\Release\bssidcalc.vbproj.CoreCompileInputs.cache
+E:\Docs\개인\Repos\mrbssidcalc\bssicalc\bssicalc\obj\Release\bssicalc.exe
+E:\Docs\개인\Repos\mrbssidcalc\bssicalc\bssicalc\obj\Release\bssicalc.xml
+E:\Docs\개인\Repos\mrbssidcalc\bssicalc\bssicalc\obj\Release\bssicalc.pdb
